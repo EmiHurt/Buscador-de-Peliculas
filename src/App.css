@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+.SearchForm-wrapper{
+  display:flex;
+  justify-content: center;
+  padding: 15px;
+}
+.MoviesList{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding:16px;
+  background: black;
+}
+.MoviesList-item{
+  margin-bottom: 24px;
+ 
+  width: 48%;
+ 
+}
+.title{
+  color:#FF7F50;
+}
+.card-image{
+  padding-top:-100px;
+  
+}
+.contenedor{
+  background: #08212f;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding:16px;
+  width: 2000px;
+  
+  margin: auto;
+  
+  justify-content: space-around;
+  display: table-cell;
+    vertical-align: middle;
+  
+  
+  justify-content: space-between;
+ 
+  
+}
+h1{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: uppercase;
+  
+  
+}
+h3{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display:block;
+margin:auto;
+
+}
+span{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display:block;
+margin:auto;
+
+}
+p{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display:block;
+margin:auto;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .search{
+    background: #08212f;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:16px;
+    width: 2000px;
+    height: 500px;
+    
+    margin: auto;
+    
+    justify-content: space-around;
+    display: table-cell;
+      vertical-align: middle;
+    
+    
+    justify-content: space-between;
+
+  }
+  .buscador{
+    color:#FF7F50;
+    font-family: Arial;;
+    font-size: 20px;
+
+  }
